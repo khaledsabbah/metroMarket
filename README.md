@@ -40,7 +40,7 @@
 *        php artisan products:fetch count_by_vendor_id 2
 
 - You should see the following image
-  ![alt text](../images/result.png)
+  ![alt text]("https://github.com/khaledsabbah/metroMarket/blob/images/docker.png")
 
 ## Code Desgin and Architect
 I tried to apply S.O.L.I.D principles & use some design pattern and Hydrate everything into object as possible.
