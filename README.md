@@ -47,7 +47,7 @@ I tried to apply S.O.L.I.D principles & use some design pattern and Hydrate ever
 
 #### Patterns used:
 - ``Service Pattern``  Calling repository if any, retrieving data and aggregate multiple processes.
-- ``Factory Pattern``   Create an Advertiser object on the fly .
+- ``Factory Pattern``   Create Criteria object on the fly .
 - ``Hydrator Pattern``  Hydrate inputs ( eg. data ) into entities .
 - ``Composite Entity Pattern``  Applying composition and relations between Entities.
 - ``Filter Pattern``   Filter data and return only what meet the implemented criteria
