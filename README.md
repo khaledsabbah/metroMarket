@@ -15,7 +15,8 @@
 
 # Install Using PHP
 - extract the .zip file or download using `git clone https://github.com/khaledsabbah/metroMarket.git metroMarket`
-- `cd metroMarket` <small> ( go to task location )</small>
+- `cd metroMarket/source` <small> ( go to source location )</small>
+- `composer install ` <small> ( install packages )</small>
 - `php artisan serve ` <small> ( run php server )</small>
 - `chmod 755 -R storage/logs/`
 - `chmod 777 -R storage/framework/sessions/`
@@ -40,7 +41,7 @@
 *        php artisan products:fetch count_by_vendor_id 2
 
 - You should see the following image
-  ![alt text]("https://github.com/khaledsabbah/metroMarket/blob/images/docker.png")
+  ![alt text](https://github.com/khaledsabbah/metroMarket/blob/main/images/result.png)
 
 ## Code Desgin and Architect
 I tried to apply S.O.L.I.D principles & use some design pattern and Hydrate everything into object as possible.
